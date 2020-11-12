@@ -227,7 +227,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (data.length == 0)
             favTeam.innerHTML = `
                     <div class="center-align">
-                        <img src="/images/error-404.png" alt="not-found" />
+                        <img src="football-laliga/images/error-404.png" alt="not-found" />
                         <strong><h5>Tidak ada data tersimpan.</h5></strong>
                     </div>
                 `;
