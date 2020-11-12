@@ -1,0 +1,68 @@
+.item-match {
+    border: 1px solid rgba(51, 51, 51, 0.12);
+}
+
+.std-10 {
+    width: 3%;
+}
+
+table {
+    background-color: #fff;
+}
+
+.im-team>div,
+.im-score>div {
+    margin-top: 10px;
+}
+
+.im-schedule>div {
+    margin-top: 15px;
+}
+
+.im-team span {
+    padding-left: 20px;
+}
+
+nav .brand-logo {
+    left: 50px;
+}
+
+.classement-table img {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+
+.classement-table a {
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 992px) {
+    nav .brand-logo {
+        top: -10px;
+        left: 50% !important;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+}
+
+@media only screen and (max-width: 551px) {
+    .tab-title {
+        display: none !important;
+    }
+    
+    li.tab a>i.material-icons {
+        display: block !important;
+    }
+
+}
+
+@media only screen and (min-width: 570px) {
+    .tab-title {
+        display: block !important;
+    }
+    
+    li.tab a>i.material-icons {
+        display: none !important;
+    }
+}

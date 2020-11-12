@@ -1,0 +1,23 @@
+{
+    "name": "Laliga Spanyol",
+    "short_name": "Laliga",
+    "theme_color": "#002461",
+    "background_color": "#002461",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/index.html",
+    "icons": [
+        {
+            "src": "/images/icon2.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/images/icon1.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ]
+}
