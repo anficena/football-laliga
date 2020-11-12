@@ -7,27 +7,27 @@ if (workbox) {
     // workbox.loadModule('workbox-background-sync');
 
     workbox.precaching.precacheAndRoute([
-        { url: '/', revision: '1' },
-        { url: '/index.html', revision: '1' },
-        { url: '/partials/nav.html', revision: '1' },
-        { url: '/pages/classement.html', revision: '1' },
-        { url: '/pages/match.html', revision: '1' },
-        { url: '/pages/team.html', revision: '1' },
-        { url: '/pages/detail_team.html', revision: '1' },
-        { url: '/js/app.js', revision: '1' },
-        { url: '/js/detail_team.js', revision: '1' },
-        { url: '/js/materialize.min.js', revision: '1' },
-        { url: '/js/db_football.js', revision: '1' },
-        { url: '/js/idb.js', revision: '1' },
-        { url: '/css/materialize.min.css', revision: '1' },
-        { url: '/css/football.css', revision: '1' },
-        { url: '/images/logo.png', revision: '1' },
-        { url: '/images/error-404.png', revision: '1' },
-        { url: '/images/icon.png', revision: '1' },
-        { url: '/images/icon1.png', revision: '1' },
-        { url: '/images/icon2.png', revision: '1' },
-        { url: '/images/default-team.png', revision: '1' },
-        { url: '/manifest.json', revision: '1' },
+        { url: 'football-laliga/', revision: '1' },
+        { url: 'football-laliga/index.html', revision: '1' },
+        { url: 'football-laliga/partials/nav.html', revision: '1' },
+        { url: 'football-laliga/pages/classement.html', revision: '1' },
+        { url: 'football-laliga/pages/match.html', revision: '1' },
+        { url: 'football-laliga/pages/team.html', revision: '1' },
+        { url: 'football-laliga/pages/detail_team.html', revision: '1' },
+        { url: 'football-laliga/js/app.js', revision: '1' },
+        { url: 'football-laliga/js/detail_team.js', revision: '1' },
+        { url: 'football-laliga/js/materialize.min.js', revision: '1' },
+        { url: 'football-laliga/js/db_football.js', revision: '1' },
+        { url: 'football-laliga/js/idb.js', revision: '1' },
+        { url: 'football-laliga/css/materialize.min.css', revision: '1' },
+        { url: 'football-laliga/css/football.css', revision: '1' },
+        { url: 'football-laliga/images/logo.png', revision: '1' },
+        { url: 'football-laliga/images/error-404.png', revision: '1' },
+        { url: '/football-laligaimages/icon.png', revision: '1' },
+        { url: 'football-laliga/images/icon1.png', revision: '1' },
+        { url: 'football-laliga/images/icon2.png', revision: '1' },
+        { url: 'football-laliga/images/default-team.png', revision: '1' },
+        { url: 'football-laliga/manifest.json', revision: '1' },
     ]);
 
     // const bgSyncData = new workbox.backgroundSync.Plugin('laLiga', {
@@ -39,7 +39,7 @@ if (workbox) {
 
 
     workbox.routing.registerRoute(
-        new RegExp('/pages/'),
+        new RegExp('football-laliga/pages/'),
         workbox.strategies.staleWhileRevalidate({
             cacheName: 'pages'
         })
